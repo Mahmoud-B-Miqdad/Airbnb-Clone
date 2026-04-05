@@ -119,12 +119,12 @@ nav #logo {
     background-color: #fff;
     position: absolute;
     top: 34%;
-    width: 34%;
+    width: 40%;
     height: 36px;
     text-align: center;
     justify-content: center;
     align-items: center;
-     box-shadow:0 6px 16px rgba(0,0,0,0.12);
+    box-shadow:0 6px 16px rgba(0,0,0,0.12);
 }
 
 .profile-content {
@@ -299,4 +299,17 @@ nav #logo {
     position: absolute;
     right: 33%;
     margin-top: 22px;
+}
+ @media (max-width:790px) {
+    .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    }  
+    .img-log{
+        width:100px;
+        height:100px;
+        font-size: medium;
+    }
 }
