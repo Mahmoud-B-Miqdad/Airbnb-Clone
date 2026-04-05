@@ -93,10 +93,10 @@
   });
 
   const GALLERY_IMAGES = {
-    bedroom: './assets/images/imgi_1_photo.jpg',
-    kitchen: './assets/images/imgi_2_photo.jpg',
-    bathroom: './assets/images/imgi_3_photo.jpg',
-    view: './assets/images/imgi_4_photo.jpg',
+    bedroom: 'images/list_img1.jpg',
+    kitchen: 'images/list_img3.jpg',
+    bathroom: 'images/list_img2.jpg',
+    view: 'images/list_img4.jpg',
   };
 
   function initCardGallery() {
