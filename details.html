@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="styles/base.css"/>
+    <link rel="stylesheet" href="styles/layout.css"/>
+    <link rel="stylesheet" href="styles/all.min.css"/>
+    <link rel="stylesheet" href="styles/Pages/details.css"/>
+</head>
+<body>
+    <section class="header_details container flex">
+        <h2 class="place_title">Your amazing harbor at the heart of Paris</h2>
+        <div class="actions">
+            <ul class="flex">
+                <li><i class="fa-solid fa-arrow-up-from-bracket"></i><a href="#" onclick="sharePlace(event)">Share</a></li>
+                <li><i class="fa-solid fa-heart" id="heart-icon"></i><a href="#" onclick="savePlace(event)">Save</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="all_picture container">
+        <div class="picture_list">
+            <img src="images/picture_one.jpg" alt="Main Picture" class="big_picture"/>
+            <img src="images/list_img1.jpg" alt="Image Part 1"/>
+            <img src="images/list_img2.jpg" alt="Image Part 2"/>
+            <img src="images/list_img3.jpg" alt="Image Part 3"/>
+            <img src="images/list_img4.jpg" alt="Image Part 4"/>
+        </div>
+    </section>
+    <section class="content container flex">
+        <section class="left-side">
+            <h4>Entire rental unit in Paris, France</h4>
+            <p>4 guests &middot; 2 bedrooms &middot; 3 beds &middot; 1 bath</p>
+            <div class="reviews flex">
+                <div class="leaf flex">
+                    <img src="images/left_leaf.jpg" alt="left leaf"/>
+                    <p class="guest">Guest<br>favorite</p>
+                    <img src="images/right_leaf.jpg" alt="right leaf"/>
+                </div>
+                <p class="describe">one of the most loved homes on<br>Airbnd, according to guests</p>
+                <div class="star">
+                    <p class="rev_num">4.91</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="total_review">
+                    <p class="rev_num">25</p>
+                    <span class="review_span">Reviews</span>
+                </div>
+            </div>
+            <div class="picture_info flex">
+                <img src="images/person_picture.jpg" alt="person_picture"/>
+                <div class="picture_text">
+                    <p>Hosted by Dimitri</p>
+                    <span>Superhost &middot; 6 years hosting</span>
+                </div>
+            </div>
+            <div class="all_icon">
+                <div class="icons flex">
+                    <i class="fa-solid fa-door-open"></i>
+                    <div class="icon_text">
+                    <p>Self check-in</p>
+                    <span>Check yourself in with the lockbox.</span>
+                </div>
+                </div>
+                    <div class="icons flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="icon_text">
+                    <p>Lots to do nearby</p>
+                    <span>Guests say this area has plenty to explore.</span>
+                </div>
+                </div>
+                <div class="icons flex">
+                    <i class="fa-solid fa-desktop"></i>
+                    <div class="icon_text">
+                    <p>Great for remote work</p>
+                    <span>Fast wifi at 57 Mbps, plus a dedicated workspace.</span>
+                </div>
+                </div>
+            </div>
+        </section>
+        <aside class="right_side">
+            <p class="price"><span>$193</span> for 2 nights</p>
+            <table>
+                <tr class="first_row">
+                    <td>
+                        <div class="label">CHECK-IN</div>
+                        <div class="value">1/29/2027</div>
+                    </td>
+                    <td>
+                        <div class="label">CHECKOUT</div>
+                        <div class="value">1/31/2027</div>
+                    </td>
+                    <tr>
+                    <td colspan="2">
+                    <div class="guests flex">
+                        <div>
+                        <div class="label">GUESTS</div>
+                        <div class="value">1 guest</div>
+                        </div>
+                        <div class="arrow"><i class="fa-solid fa-chevron-down"></i></div>
+                    </div>
+                    </td>
+                </tr>
+                </tr>
+            </table>
+            <p class="info_price">$0 today · Free cancellation before January 28</p>
+            <button class="reserve">Reserve</button>
+            <p class="charged_now">You won't be charged yet</p>
+        </aside>
+    </section>
+    <section class="show_review">
+        <div class="show_photo flex">
+            <img src="images/left_leaf.jpg" alt="left leaf"/>
+            <p>4.91</p>
+            <img src="images/right_leaf.jpg" alt="right leaf"/>
+        </div>
+        <div class="show_text">
+            <h5>Guest favorite</h5>
+            <p>This home is a guest favorite based on <br> ratings, reviews, and reliability</p>
+            <a href="#">How reviews work</a>
+        </div>
+        <div class="show_icons container flex">
+            <div class="show_icon_one flex">
+                <p>Cleanliness</p>
+                <p class="show_num">4.8</p>
+                <i class="fa-solid fa-pump-soap"></i>
+            </div>
+            <div class="show_icon_one">
+                <p>Accuracy</p>
+                <p class="show_num">4.9</p>
+                <i class="fa-regular fa-circle-check"></i>
+            </div>
+            <div class="show_icon_one">
+                <p>Check-in</p>
+                <p class="show_num">5.0</p>
+                <i class="fa-solid fa-key"></i>
+            </div>
+            <div class="show_icon_one">
+                <p>Communication</p>
+                <p class="show_num">5.0</p>
+                <i class="fa-regular fa-comment"></i>
+            </div>
+            <div class="show_icon_one">
+                <p>Location</p>
+                <p class="show_num">5.0</p>
+                <i class="fa-regular fa-map"></i>
+            </div>
+            <div class="show_icon_one">
+                <p>Value</p>
+                <p class="show_num">4.8</p>
+                <i class="fa-solid fa-tag"></i>
+            </div>
+        </div>
+
+    </section>
+    <section class="comments">
+        <div class="all_comments container">
+            <div class="comment_card">
+            <div class="user_info">
+                <img src="images/person_picture.jpg" alt="Jakob">
+                <div class="user_details">
+                    <h4>Jakob</h4>
+                    <p>8 years on Airbnb</p>
+                </div>
+            </div>
+            <div class="comment_meta">
+                <span class="stars">★★★★★</span> · 
+                <span class="date">February 2026</span> · 
+                <span class="stay_type">Stayed a few nights</span>
+            </div>
+            <p class="comment_text">
+                Dimitri rents out his own cozy apartment in the heart of Paris' stunning 5th district. The location couldn't be better for everyone who wants to enjoy a beautiful time surrounded by...
+            </p>
+        </div>
+        <div class="comment_card">
+            <div class="user_info">
+                <img src="images/person_picture.jpg" alt="Jakob">
+                <div class="user_details">
+                    <h4>Jakob</h4>
+                    <p>8 years on Airbnb</p>
+                </div>
+            </div>
+            <div class="comment_meta">
+                <span class="stars">★★★★★</span> · 
+                <span class="date">February 2026</span> · 
+                <span class="stay_type">Stayed a few nights</span>
+            </div>
+            <p class="comment_text">
+                Dimitri rents out his own cozy apartment in the heart of Paris' stunning 5th district. The location couldn't be better for everyone who wants to enjoy a beautiful time surrounded by...
+            </p>
+        </div>
+        <div class="comment_card">
+            <div class="user_info">
+                <img src="images/person_picture.jpg" alt="Jakob">
+                <div class="user_details">
+                    <h4>Jakob</h4>
+                    <p>8 years on Airbnb</p>
+                </div>
+            </div>
+            <div class="comment_meta">
+                <span class="stars">★★★★★</span> · 
+                <span class="date">February 2026</span> · 
+                <span class="stay_type">Stayed a few nights</span>
+            </div>
+            <p class="comment_text">
+                Dimitri rents out his own cozy apartment in the heart of Paris' stunning 5th district. The location couldn't be better for everyone who wants to enjoy a beautiful time surrounded by...
+            </p>
+        </div>
+        <div class="comment_card">
+            <div class="user_info">
+                <img src="images/person_picture.jpg" alt="Jakob">
+                <div class="user_details">
+                    <h4>Jakob</h4>
+                    <p>8 years on Airbnb</p>
+                </div>
+            </div>
+            <div class="comment_meta">
+                <span class="stars">★★★★★</span> · 
+                <span class="date">February 2026</span> · 
+                <span class="stay_type">Stayed a few nights</span>
+            </div>
+            <p class="comment_text">
+                Dimitri rents out his own cozy apartment in the heart of Paris' stunning 5th district. The location couldn't be better for everyone who wants to enjoy a beautiful time surrounded by...
+            </p>
+        </div>
+        </div>
+        <button class="btn_show_all">Show all</button>
+    </section>
+    <div id="shareModal" class="share-modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeShare()">&times;</span>
+        <h3>Share this place</h3>
+        <div class="share-options">
+            <a id="whatsappLink" href="#" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+            <a id="facebookLink" href="#" target="_blank">
+                <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+            <button onclick="copyLink()">
+                <i class="fa-solid fa-copy"></i> Copy Link
+            </button>
+        </div>
+    </div>
+</div>
+    <script src="scripts/details.js"></script>
+</body>
+</html>
