@@ -134,8 +134,11 @@ allStars.forEach(star => {
         star.style.transition = '0.2s ease';
         star.style.cursor = 'pointer';
     };
+
     star.onmouseleave = () => {
-        star.style.color = '#FFD700';
         star.style.transform = 'scale(1)';
+    };
+    star.onclick = () => {
+        star.classList.toggle('star-active');
     };
 });

@@ -185,9 +185,6 @@ tr:last-child td {
     color: #8c8a8a;
     font-size: 1rem;
 }
-.all_icon {
-    
-}
 .icons {
     margin-top: 40px;
     gap: 30px;
@@ -358,4 +355,7 @@ tr:last-child td {
 }
 .fa-facebook { 
     color: #1877F2; 
+}
+.star-active {
+    color: #FFD700 !important;
 }
