@@ -30,10 +30,16 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all 0.3s ease; 
+    cursor: pointer;
 }
 .picture_list .big_picture {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
+}
+.picture_list img:hover {
+    filter: brightness(0.7) contrast(0.9);
+    transform: scale(1.01);  
 }
 .content {
     margin-top: 30px;
