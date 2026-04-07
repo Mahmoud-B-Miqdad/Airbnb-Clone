@@ -142,3 +142,16 @@ allStars.forEach(star => {
         star.classList.toggle('star-active');
     };
 });
+
+let showBtn = document.querySelector('.btn_show_all');
+let extraComments = document.querySelectorAll('.extra');
+showBtn.onclick = () => {
+    extraComments.forEach(comment => {
+        comment.classList.toggle('hidden');
+    });
+    if (extraComments[0].classList.contains('hidden')) {
+        showBtn.innerText = "Show all";
+    } else {
+        showBtn.innerText = "Show less";
+    }
+};
