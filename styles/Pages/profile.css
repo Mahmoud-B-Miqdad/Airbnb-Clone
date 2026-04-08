@@ -20,41 +20,7 @@ body {
 
 }
 
-header {
-    width: 100%;
-    padding: 15px 20px;
-    height: 100px;
 
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    align-items: center;
-}
-
-nav #logo {
-    color: var(--primary-color);
-    padding-top: 10px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 22px;
-    padding-top: 10px;
-    align-items: center;
-}
-
-.nav-links h4:hover {
-    width: 150px;
-    height: 37px;
-    border: none;
-    background-color: rgb(241, 239, 239);
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 6px;
-}
 
 .name-log {
     width: 40px;
@@ -68,16 +34,6 @@ nav #logo {
     font-weight: bold;
 }
 
-.menu {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(237, 233, 233);
-    color: rgb(20, 20, 20);
-    text-align: center;
-    padding: 10px 5px;
-
-}
 
 .container {
     max-width: 1200px;

@@ -1,17 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Nanum+Gothic+Coding&family=Noto+Sans+Arabic:wght@100..900&family=Noto+Sans+Duployan:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body,
-html {
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
 
-}
 
 :root {
     --primary-color: #FF385C;
@@ -20,41 +10,6 @@ html {
 
 }
 
-header {
-    width: 100%;
-    padding: 15px 20px;
-    height: 100px;
-
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    align-items: center;
-}
-
-nav #logo {
-    color: var(--primary-color);
-    padding-top: 10px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 22px;
-    padding-top: 10px;
-    align-items: center;
-}
-
-.nav-links h4:hover {
-    width: 150px;
-    height: 37px;
-    border: none;
-    background-color: rgb(241, 239, 239);
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 6px;
-}
 
 .name-log {
     width: 40px;
@@ -66,17 +21,6 @@ nav #logo {
     padding: 10px;
     font-size: 14px;
     font-weight: bold;
-}
-
-.menu {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(237, 233, 233);
-    color: rgb(20, 20, 20);
-    text-align: center;
-    padding: 10px 5px;
-
 }
 
 .profile-container {
